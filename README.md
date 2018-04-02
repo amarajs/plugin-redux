@@ -1,8 +1,8 @@
-## @amarajs/plugin-redux
+## [@amarajs/plugin-redux](https://github.com/amarajs/plugin-redux)
 
 Plugin middleware for AmaraJS to connect features to a Redux store.
 
-Actions dispatched to your `Amara` instance (e.g. through features using the `@amarajs/plugin-events` middleware) will also be dispatched to your Redux store. A new boolean property, `__Amara__`, will be added to any actions dispatched to your store through Amara. Your Redux middleware, reducers, sagas, etc. can look for this property to know if the action was dispatched through this middleware.
+Actions dispatched to your `Amara` instance (e.g. through features using the [`@amarajs/plugin-events`](https://github.com/amarajs/plugin-events) middleware) will also be dispatched to your Redux store. A new boolean property, `__Amara__`, will be added to any actions dispatched to your store through Amara. Your Redux middleware, reducers, sagas, etc. can look for this property to know if the action was dispatched through this middleware.
 
 ### Installation
 
@@ -50,7 +50,7 @@ This plugin accepts a single argument, which should be a Redux store.
 
 If you have a feature request, please create a new issue so the community can discuss it.
 
-If you find a defect, please submit a bug report that includes a working link to reproduce the problem (for example, using [jsBin](https://jsbin.com)). Of course, pull requests to fix open issues are always welcome!
+If you find a defect, please submit a bug report that includes a working link to reproduce the problem (for example, using [this fiddle](https://jsfiddle.net/04f3v2x4/)). Of course, pull requests to fix open issues are always welcome!
 
 ### License
 
